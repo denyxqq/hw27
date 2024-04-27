@@ -1,0 +1,57 @@
+.list{
+    position: absolute;
+    left: -120px;
+}
+.side-menu{
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(162, 166, 176);transition: 1s;
+width: 120px;
+
+}
+
+.menu-list{    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+    padding-left: 50px;
+    list-style-type: square ;
+ 
+}
+.menu-list a {
+    text-transform: capitalize;
+    color: white;
+text-decoration: none;
+}
+
+.buttons{
+    height: 20px;
+    width: 232px;
+    position: absolute;
+        background-color: blue;
+        transform: rotate(90deg);
+        white-space: nowrap;
+       bottom: 106px;
+left: 8px;
+opacity: 1;
+  }
+
+
+
+.list:hover{
+    left: 0;
+    transition: all 0.2s;
+}
+
+
+.text-color{
+    color: white;
+}
+
+a:hover{
+color: yellow;
+
+}
